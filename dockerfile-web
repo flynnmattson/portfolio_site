@@ -1,0 +1,5 @@
+FROM nginx
+
+MAINTAINER Flynn Mattson
+
+COPY nginx.conf /etc/nginx/nginx.conf
