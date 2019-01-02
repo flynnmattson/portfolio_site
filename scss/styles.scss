@@ -153,9 +153,13 @@ header {
     animation-timing-function: ease;
     animation-duration: 0.75s;
 
+    .nes-btn {
+      padding: 0px 0px;
+    }
+
     ul {
         display: inline-block;
-        background: $background;
+        // background: $background;
         text-align: center;
         padding: 10px;
         margin: 0;
