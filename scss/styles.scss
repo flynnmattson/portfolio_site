@@ -93,6 +93,15 @@ body {
         overflow: hidden;
         z-index: -1;
     }
+
+    .nes-container::after {
+      border-color: $heading;
+    }
+
+    .separator {
+      padding: 0rem 7rem;
+      margin-bottom: 1rem;
+    }
 }
 
 // No JS styles
@@ -337,8 +346,8 @@ footer {
         position: absolute;
         content: '';
         top: 100%;
-        height: 1px;
-        width: 50px;
+        height: 3px;
+        width: 100px;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -360,7 +369,7 @@ footer {
     position: relative;
     height: 100vh;
     min-height: 500px;
-    max-height: 1080px;
+    // max-height: 1080px;
     background: url(../images/home.gif);
     background-size: cover;
     padding: 15px;
@@ -457,8 +466,7 @@ footer {
 */
 
 #about {
-    padding: 75px 50px;
-    border-bottom: 1px solid $border;
+    padding: 50px 50px;
 
     h2 {
         color: $heading;
@@ -479,7 +487,6 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
@@ -584,8 +591,7 @@ footer {
 */
 
 #education {
-    padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid $border;
+    padding: 50px 15px;
     text-align: center;
 
     h2 {
@@ -643,13 +649,16 @@ footer {
 */
 
 #projects {
-    padding: 50px 15px;
-    border-bottom: 1px solid $border;
+    padding: 75px 50px;
     text-align: center;
 
     h2 {
         color: $heading;
-        margin-bottom: 50px;
+        font-size: 1.5em;
+    }
+
+    p {
+      margin: 0;
     }
 }
 
@@ -713,6 +722,7 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-size: 1.5em;
     }
 
     ul {
