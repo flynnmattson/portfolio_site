@@ -77,7 +77,7 @@ $text: #74808a;
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  font-size: 14px;
+  font-size: 1.2em;
   &.active {
     overflow: hidden;
     z-index: -1;
@@ -433,6 +433,10 @@ footer {
   p {
     margin: 0;
   }
+  .about-desc {
+    padding: 15px;
+    text-align: left;
+  }
 }
 
 /*
@@ -498,7 +502,6 @@ footer {
   }
   p {
     color: $text;
-    font-size: 0.9em;
     margin: 0;
   }
 }
@@ -546,42 +549,30 @@ footer {
     color: $heading;
     font-size: 1.5em;
   }
-  p {
-    text-align: left;
-    padding-top: 10px;
-  }
 }
 
 .education-block {
-  max-width: 700px;
   margin: 0 auto 30px auto;
   padding: 15px;
-  border: 1px solid $border;
-  text-align: left;
   h3 {
     font-weight: 500;
-    float: left;
     margin: 0;
     color: $heading;
   }
   span {
     color: $text;
-    float: right;
   }
   h4 {
     color: $text;
     clear: both;
     font-weight: 500;
-    margin: 0 0 15px 0;
   }
   p,
   ul {
     margin: 0;
     color: $text;
-    font-size: 0.9em;
-  }
-  ul {
-    padding: 0 0 0 15px;
+    text-align: left;
+    padding-top: 15px;
   }
 }
 
@@ -601,6 +592,10 @@ footer {
   p {
     margin: 0;
   }
+  img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .project {
@@ -619,7 +614,7 @@ footer {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 300px;
+  margin-left: 200px;
   padding: 15px;
   h3 {
     font-weight: 300;
@@ -629,7 +624,6 @@ footer {
   p {
     color: $text;
     margin: 0 0 15px 0;
-    font-size: 0.9em;
   }
 }
 
@@ -673,7 +667,6 @@ footer {
     color: $heading;
     background: darken($background-alt, 5%);
     list-style: none;
-    cursor: default;
     font-size: 1.2em;
   }
 }

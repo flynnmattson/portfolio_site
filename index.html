@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Flynn Mattson - Full Stack Web Developer</title>
+  <title>Flynn Mattson - Software Developer</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
@@ -95,10 +95,10 @@
     <div class="container">
       <div class="nes-container with-title is-centered">
         <h2 class="title">About Me</h2>
-        <div>
+        <div class="about-desc">
           <p>
             Hello, my name is Flynn Mattson, I'm a Software Developer currently working for Adobe.
-            I'm born, raised, and now currently residing in the Seattle area (hence the rain &#x2614;).
+            I'm born, raised, and currently residing in the Seattle area (hence the rain &#x2614;).
             At home, you can often find me with my coffee/tea at my computer looking for a new indie game
             to play, working on a project, or browsing the NBA subreddit religously (bring the Sonics Back!).
             When I'm not at home or work, I try to travel and explore the world as much as I can. 
@@ -116,7 +116,7 @@
           <div data-date="December 2015 – Today!">
             <h3>Software Development Engineer</h3>
             <div>
-              <h4>Adobe</h4>
+              <h4>Adobe Inc.</h4>
               <p>
                 Working across several teams within the IT and Service Operations organizations building
                 web applications & tools from scratch as well as extending existing applications. Collaborated
@@ -128,7 +128,7 @@
           <div data-date="June 2015 – December 2015">
             <h3>IT Automation Engineer Intern</h3>
             <div>
-              <h4>Adobe</h4>
+              <h4>Adobe Inc.</h4>
               <p>
                 Worked on a development team of 3, to build out a complete unit and end-to-end testing process
                 for a high visibility Service Availability & Reporting web application. Technologies used were Karma &
@@ -146,15 +146,15 @@
     <div class="container">
       <div class="nes-container with-title is-centered">
         <h2 class="title">Education</h2>
-        <div>
+        <div class="education-block">
           <h3>University of Washington Bothell</h3>
           <div>
             <h4>Bachelor of Science in Computer Science</h4>
             <span class="education-date">Sept 2014 - June 2016</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-              urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-              dapibus porta quam laoreet placerat.
+              Majority of development classes focused on learning OOP, Data Structures & Algorithms utilizing Java and
+              C++. Additional courses included Hardware (Circuits/Assembly Language), Operating Systems, and Databases.
+              Non-development courses focused on software development methodologies, technical writing skills, and team building.
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@
   <div id="projects">
     <div class="container">
       <div class="nes-container with-title is-centered">
-        <h2 class="title">Projects</h2>
+        <h2 class="title">Personal Projects</h2>
 
         <div class="project">
           <div class="project-image">
@@ -176,11 +176,12 @@
           <div class="project-info">
             <h3>Adventure Game</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-              urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-              dapibus porta quam laoreet placerat.
+              A 2D Action RPG Platformer Game that built using Typescript and the game library
+              <a href="https://phaser.io/" target="_blank">Phaser.js</a>. I initially started this project to practice
+              using Typescript, and have learned several game development skills along the way. Some skills
+              learned are tiling environments, building spritesheets, drawing pixel art/animations.
             </p>
-            <a href="#">View Project</a>
+            <a href="https://github.com/flynnmattson/flynn-fighter" target="_blank">View Project</a>
           </div>
           <!-- End .project-info -->
         </div>
@@ -193,11 +194,12 @@
           <div class="project-info">
             <h3>Epoch</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-              urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-              dapibus porta quam laoreet placerat.
+              Online Multiplayer Board Game that plays very similar to the 2-person Board Game
+              <a href="https://boardgamegeek.com/boardgame/54043/jaipur" target="_blank">Jaipur</a>.
+              Frontend is built with React, Redux & Semantic UI. Backend is built with NodeJS, Express, Socket.io & Redis.
+              This project was started to practice more with React and learn Redux.
             </p>
-            <a href="#">View Project</a>
+            <a href="https://github.com/flynnmattson/epoch" target="_blank">View Project</a>
           </div>
           <!-- End .project-info -->
         </div>
@@ -211,11 +213,11 @@
           <div class="project-info">
             <h3>NBA Today</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
-              urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
-              dapibus porta quam laoreet placerat.
+              Web App that shows live up-to-date stats and scores for games across the NBA. Frontend is built
+              with React and backend is built with NodeJS and Express. The data is pulled on the backend directly
+              from the stats.nba.com API.
             </p>
-            <a href="#">View Project</a>
+            <a href="https://github.com/flynnmattson/nbatoday" target="_blank">View Project</a>
           </div>
           <!-- End .project-info -->
         </div>
@@ -234,10 +236,12 @@
           <li>Node.js</li>
           <li>AngularJS</li>
           <li>Mysql</li>
+          <li>Docker</li>
           <li>Redis</li>
           <li>React</li>
           <li>AWS</li>
           <li>Git</li>
+          <li>ML - Regression</li>
           <li>REST APIs</li>
           <li>Agile Methodology</li>
           <li>Python</li>
